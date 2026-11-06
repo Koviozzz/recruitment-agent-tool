@@ -1,0 +1,8 @@
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6
+openai>=1.30
+streamlit>=1.30
+pytest>=8.0   # 离线测试 test_tools.py（N1：pytest 化）
+# 可选：如需本地向量化做语义匹配，取消下一行注释
+# sentence-transformers>=2.5

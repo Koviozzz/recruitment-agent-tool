@@ -1,0 +1,21 @@
+# ---- 密钥与本地配置（切勿提交）----
+.env
+.env.*
+!.env.example
+
+# ---- Python 运行时 ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# ---- 日志 / 临时产物 ----
+*.log
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
