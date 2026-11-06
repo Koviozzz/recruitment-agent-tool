@@ -1,5 +1,10 @@
 # 招聘 Agent Tool（ChatDD 接入版）
 
+> **🌐 在线体验**：https://kovoiiizzz-recruitment-agent-tool.ms.show （ModelScope 创空间，免费公网直连）
+>
+> 打开即用：左右两栏粘贴简历/JD → 点「开始匹配」→ 加权打分 + 硬门槛判定 + 差距分析。
+> 演示案例与预期结果见仓库内 `DEMO_CASES.pdf` / `demo_cases.txt`（均为虚构人物）。
+
 在 ChatDD 的 AgentOS（planning + reasoning + tool calling + skills）里新增一个
 **招聘 agent**，提供两个核心能力：**简历解析与筛选** 与 **JD 解析与人才匹配**。
 
